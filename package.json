@@ -1,6 +1,6 @@
 {
   "name": "@nxcd/types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NXCD's type definitions",
   "main": "index.js",
   "scripts": {
