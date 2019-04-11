@@ -1,0 +1,23 @@
+{
+  "name": "@nxcd/types",
+  "version": "1.0.0",
+  "description": "NXCD's type definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxcd/types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nxcd/types/issues"
+  },
+  "homepage": "https://github.com/nxcd/types#readme",
+  "dependencies": {
+    "@types/node": "^11.13.4"
+  }
+}
