@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && tsc --outDir ./dist"
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf */**.{js,d.ts} && rm -rf *.{js,d.ts}"
   },
   "repository": {
     "type": "git",
