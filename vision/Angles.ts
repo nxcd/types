@@ -1,6 +1,5 @@
 import { IVisionResponse } from './IVisionResponse'
 import { Unit } from '../unit-system/Measure';
-import { toASCII } from 'punycode';
 
 export type IAngleRequest = {
   kind: string,
