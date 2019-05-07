@@ -22,5 +22,8 @@
   "homepage": "https://github.com/nxcd/types#readme",
   "dependencies": {
     "@types/node": "^11.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
   }
 }
