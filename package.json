@@ -1,6 +1,6 @@
 {
   "name": "@nxcd/types",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "NXCD's type definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
