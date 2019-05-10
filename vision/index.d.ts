@@ -3,3 +3,4 @@ export * from './LineBounds';
 export * from './IVisionResponse';
 export * from './MicrosoftOperationStatus';
 export * from './Angles';
+export * from './FaceMatchInternalResponse';

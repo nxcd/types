@@ -1,3 +1,4 @@
 export declare type FaceMatchInternalResponse = {
-    samePerson: number;
+    isIdentical: boolean;
+    confidence: number;
 };
