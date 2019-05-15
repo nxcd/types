@@ -6,3 +6,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./OCRModules"));
 __export(require("./MicrosoftOperationStatus"));
 __export(require("./Angles"));
+__export(require("./crop"));
