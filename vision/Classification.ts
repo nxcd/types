@@ -7,5 +7,5 @@ export type Classification = {
 export type Classifications = {
   id: string,
   created: Date | null
-  classifications: Classification
+  classification: Classification
 }
