@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && tsc",
-    "clean": "rm -rf */**.{js,d.ts} && rm -rf *.{js,d.ts}"
+    "clean": "rm -rf */**.{js,d.ts} && rm -rf *.{js,d.ts}",
+    "postpublish": "npm run clean"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   },
   "devDependencies": {
     "typescript": "^3.4.5"
-  }
+  },
+  "files": [
+    "*/**/*.{js,d.ts}",
+    "*.{js,d.ts}"
+  ]
 }
