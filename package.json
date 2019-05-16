@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && tsc",
     "clean": "rm -rf */**.{js,d.ts} && rm -rf *.{js,d.ts}",
-    "postpublish": "npm run clean"
+    "postpublish": "npm run clean",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
