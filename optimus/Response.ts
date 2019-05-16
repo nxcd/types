@@ -1,12 +1,12 @@
 export type SuccessResponse = {
   ok: true,
-  file: string,
+  result: string[],
   error: null
 }
 
 export type ErrorResponse = {
   ok: false,
-  file: string,
+  result: null,
   error: {
     code: string,
     message: string

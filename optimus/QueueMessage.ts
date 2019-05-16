@@ -1,7 +1,7 @@
 import { Treatment } from './Treatment'
 
-export type MessageContent = {
+export interface QueueMessage {
   id: string,
   file: string,
-  pipeline: Treatment[]
+  treatment: Treatment
 }
