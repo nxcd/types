@@ -7,5 +7,5 @@ export type Classification = {
 export type Classifications = {
   id: string,
   created: Date | null
-  classifications: Array<Classification>
+  classification: Classification | {}
 }
