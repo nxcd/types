@@ -1,5 +1,6 @@
 export enum AvailableTreatments {
   CROP = 'crop',
   RESIZE = 'resize',
-  ROTATE = 'rotate'
+  ROTATE = 'rotate',
+  PDFTOIMAGE = 'pdfToImage'
 }
