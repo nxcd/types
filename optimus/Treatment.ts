@@ -24,7 +24,8 @@ export type RotateTreatment = {
 }
 
 export type PdfToImageTreatment = {
-  name: AvailableTreatments.PDFTOIMAGE
+  name: AvailableTreatments.PDFTOIMAGE,
+  params: {}
 }
 
 export type Treatment = CropTreatment | ResizeTreatment | RotateTreatment | PdfToImageTreatment
