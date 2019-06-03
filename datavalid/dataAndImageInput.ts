@@ -1,6 +1,6 @@
 import { DocumentData, ImageInput } from './helpers'
 
-export interface DataAndImage {
+export interface DataAndImageInput {
   document: string
   documentData?: DocumentData
   imageData?: ImageInput

@@ -1,6 +1,6 @@
 import { DocumentData } from './helpers'
 
-export interface DataAndImage {
+export interface ImageOnlyInput {
   image: string
   document: string
 }
