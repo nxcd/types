@@ -1,6 +1,6 @@
 export interface DocumentData {
   cnh?: Cnh
-  data_nascimento?: Date
+  data_nascimento?: string
   documento?: Documento
   endereco?: Endereco
   filiacao?: Filiacao
