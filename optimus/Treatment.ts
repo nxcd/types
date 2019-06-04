@@ -28,4 +28,13 @@ export type PdfToImageTreatment = {
   params: {}
 }
 
-export type Treatment = CropTreatment | ResizeTreatment | RotateTreatment | PdfToImageTreatment
+export type DownsizeTreatment = {
+  name: AvailableTreatments.DOWNSIZE,
+  params: {
+    maxWidth: number,
+    maxHeight: number,
+    maxSize: number
+  }
+}
+
+export type Treatment = CropTreatment | ResizeTreatment | RotateTreatment | PdfToImageTreatment | DownsizeTreatment
