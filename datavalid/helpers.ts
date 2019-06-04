@@ -18,8 +18,8 @@ export interface ImageResponse {
 
 export interface Cnh {
   categoria?: string
-  data_primeira_habilitacao?: Date
-  data_validade?: Date
+  data_primeira_habilitacao?: string
+  data_validade?: string
   numero_registro?: string
   registro_nacional_estrangeiro?: string
 }
